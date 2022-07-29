@@ -1,0 +1,16 @@
+@import '../../styles/Variables.scss';
+
+.myBtn {
+    height: 40px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+    background: darken($c1, 10%);
+    color: white;
+    cursor: pointer;
+    &:hover{
+        background: darken($c1, 20%);
+      }
+}

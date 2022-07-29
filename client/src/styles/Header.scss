@@ -1,0 +1,26 @@
+@import '../styles/Variables.scss';
+
+.header_container{
+    position: fixed;
+    width: 100%;
+    background-color: $c1;
+    a{ 
+        text-decoration: none;
+        h1{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+    }
+    .left_header_content{
+        justify-content: right;
+        align-items: center;
+        display: flex;
+
+        button{
+            margin: 10px;
+        }
+    }
+}
